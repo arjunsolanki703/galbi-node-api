@@ -1,0 +1,32 @@
+
+
+
+POST  API - Create API for main Contest
+CRON API -
+    cron job create new contest and make winner by max coin from old contest and end that contest
+GET API - get all contest.
+POST API - Create API to give coin
+GET API - get user detail who has more coin in contest.
+
+contest_main table
+    id, name, challenge_type(5min,1hour,1day,1month), price, created_date, uodate date
+
+contest_tbl
+    id, main contest id , start_time, end_time, status, created_date, uodate date
+
+coin_tbl
+    id, user_id, host_id (user id), contest_id, amount, created_date, uodate date
+
+Winner
+    id, user id, contest id, coint id, price, create, update date
+
+5 min puri thai atle auto pachi start thai jai
+
+have 5 min ni ander jetla koin avela hoy contest type pramane atle ee apne 
+
+hisab apvano 6 ke winner kon 6 and 5 min pela request ave to 
+
+start time end time 5 min hoy to 5 min ma total ketla koin avel hata ee 
+
+kind of history base per thi winner naki thase 
+
